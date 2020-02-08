@@ -8,70 +8,127 @@
             margin: 0;
             padding: 0;
         }
-        .void{
-            width: 900px;
-            height: 500px;
-            margin: auto;
-            border-radius: 10px;
-            border: 1px solid;
-            display: flex;
-            justify-content: space-between;
+        .right{
+            background-color: purple;
+            width: 600px;
+            height: 250px;
         }
         .zgc{
             text-align: center;
-            position: fixed;
-            width: 900px;
-            height: 50px;
-            font-size: 900;
-            border-bottom: 1px solid red;
+            padding: 15px;
+            width: 200px;
+            border-bottom: 2px solid red;
+            margin-bottom: 40px;
         }
         .box{
-            width: 450px;
-            height: 400px;
-            margin-top: 100px
+            width: 300px;
+            margin-bottom: 20px;
+            display: flex;
         }
         .death{
-            width: 200px;
-            height: 200px;
+            background-image: url(Wither.jpg);
+            background-size: cover;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 1px solid;
             margin: auto;
         }
         .koma{
-            width: 450px;
+            margin-bottom: 20px;
+            width: 300px;
             list-style: none;
         }
-        
+        .rex1{
+            margin-bottom: 5px;
+            margin-right: 20px;
+        }
+        .rex2{
+            color: gray;
+        }
+        .block{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+        }
+        .left{
+            width: 350px;
+            height: 250px;
+            margin-right: 50px;
+        }
+        .void{
+            width: 1000px;
+            margin: auto;
+            display: flex;
+            border: 1px solid;
+        }
+        .top{
+            text-align: center;
+            font-weight: 900;
+            background-color: blue;
+            list-style: none;
+            height: 40%;
+        }
+        .bot{
+            text-align: center;
+            height: 60%;
+            font-weight: 900;
+            background-color: aqua;
+            list-style: none;
+        }
+        .dark{
+            overflow: hidden;
+        }
+        .fo:before{
+            width: 20px;
+            background-size: cover;
+            background-image: url(skype.png)
+        }
     </style>
 </head>
 <body>
-    <div class="void">
-        <h1 class="zgc">Основная информация</h1>
+   <div class="void">
+    <div class="left">
+        <ul class="top">
+            <li>Обо</li>
+            <li>Мои работы</li>
+            <li>Связаться со мной</li>
+        </ul>
+        <ul class="bot">
+            <li class="one">Контакты</li>
+            <li class="two">pochta@mail.ru</li>
+            <li class="true">88005553535</li>
+            <li class="fo">emptiness_is_calling</li>
+        </ul>
+    </div>
+    <div class="right">
+        <div class="zgc">Основная информация</div>
+        <div class="block">
         <div class="box">
             <div class="death"></div>
         </div>
         <ul class="koma">
-        <li>
+        <li class="title">
             <div class="rex1">Меня зовут:</div>
-            <div class="rex2"></div>
+            <div class="rex2">Рейк.</div>
         </li>
-        <li>
-            <div class="rex1"></div>
-            <div class="rex2"></div>
+        <li class="title">
+            <div class="rex1">Мой возраст:</div>
+            <div class="rex2">17 лет.</div>
         </li>
-        <li>
-            <div class="rex1"></div>
-            <div class="rex2"></div>
-        </li>
-        <li>
-            <div class="rex1"></div>
-            <div class="rex2"></div>
-        </li>
-        <li>
-            <div class="tom1"></div>
-            <div class="tom2"></div>
+        <li class="title">
+            <div class="rex1">Мой город:</div>
+            <div class="rex2">Москва.</div>
         </li>
         </ul>
+        </div>
+    </div>
     </div>
 </body>
 </html>
