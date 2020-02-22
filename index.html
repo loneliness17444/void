@@ -9,33 +9,30 @@
             padding: 0;
         }
         .right{
-            background-color: purple;
-            width: 600px;
+            background-color: whitesmoke;
+            width: 500px;
             height: 250px;
         }
         .zgc{
             text-align: center;
             padding: 15px;
             width: 200px;
-            border-bottom: 2px solid red;
-            margin-bottom: 40px;
+            border-bottom: 2px solid blue;
+            color: dodgerblue;
         }
         .box{
             width: 300px;
-            margin-bottom: 20px;
             display: flex;
         }
         .death{
             background-image: url(Wither.jpg);
             background-size: cover;
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
             border-radius: 50%;
-            border: 1px solid;
             margin: auto;
         }
         .koma{
-            margin-bottom: 20px;
             width: 300px;
             list-style: none;
         }
@@ -47,8 +44,7 @@
             color: gray;
         }
         .block{
-            margin: 0;
-            padding: 0;
+            margin-top: 25px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -60,27 +56,31 @@
         .left{
             width: 350px;
             height: 250px;
-            margin-right: 50px;
+            font-weight: 900;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .void{
-            width: 1000px;
-            margin: auto;
             display: flex;
-            border: 1px solid;
+            justify-content: space-between;
         }
         .top{
             text-align: center;
-            font-weight: 900;
-            background-color: blue;
+            font-weight: 100;
+            background-color: powderblue;
             list-style: none;
-            height: 40%;
+            border-left: 1px solid;
+            border-radius: 7px;
+            height: 159px;
         }
         .bot{
             text-align: center;
-            height: 60%;
             font-weight: 900;
-            background-color: aqua;
+            background-color: skyblue;
             list-style: none;
+            border-left: 1px solid;
+            border-radius: 7px;;
         }
         .dark{
             overflow: hidden;
@@ -91,23 +91,33 @@
             background-image: url(skype.png)
         }
         .log{
-            width: 1000px;
+            width: 950px;
             height: 100px;
-            margin: auto;
+            margin-bottom: 20px;
             border: 1px solid;
+            border-left: 0px;
         }
         body{
+            margin: auto;
+            width: 950px;
+            height: 90vh;
             display: flex;
             flex-direction: column;
+            border: 1px solid;
+            border-top: 0px;
         }
         .gol{
-            margin-left: 600px;
+            margin-left: 550px;
             width: 400px;
             height: 100px;
+            display: flex;
+            justify-content: center;
             border-left: 1px solid;
         }
         .doom{
             display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
         .items{
             list-style: none;
@@ -125,6 +135,8 @@
             text-indent: -9999px;
             background-image: url(gomer-images/socials.png);
         }
+        .main-right{
+        }
         .vk{
             background-position: -6px -10px;
         }
@@ -136,6 +148,46 @@
         }
         .gh{
             background-position: -220px -10px;
+        }
+        .vk:hover{
+            background-position: -6px -69px;
+        }
+        .tw:hover{
+            background-position: -79px -69px;
+        }
+        .fb:hover{
+            background-position: -150px -69px;
+        }
+        .gh:hover{
+            background-position: -220px -69px;
+        }
+        .gon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900;
+            height: 53px;
+        }
+        .gon:hover{
+            background-color: blue;
+            border-radius: 7px;
+        }
+        .one{
+            text-decoration: none;
+            color: black;
+        }
+        .info{
+            margin-top: 20px;
+            background-color: whitesmoke;
+        }
+        .work-list{
+            text-align: justify;
+            padding-top: 5px;
+            padding-left: 65px;
+            list-style: none;
+        }
+        .komponi{
+            font-weight: 900;
         }
     </style>
 </head>
@@ -158,47 +210,96 @@
           </ul>
       </div>
   </div>
-   <div class="void">
+<div class="void">
     <div class="left">
         <ul class="top">
-            <li>Обо</li>
-            <li>Мои работы</li>
-            <li>Связаться со мной</li>
+            <li class="gon">
+            <h2>Обо мне</h2>
+            </li>
+            <li class="gon">
+            <h2>Мои работы</h2>
+            </li>
+            <li class="gon">
+            <h2>Связаться со мной</h2>
+            </li>
         </ul>
         <ul class="bot">
-            <li class="one">
-             Контакты</li>
-            <li class="two">
-            <a href="">pochta@mail.ru</a>
+            <li>Контакты</li>
+            <li>
+            <a class="one" href="">pochta@mail.ru</a>
             </li>
-            <li class="true">
-            <a href="">88005553535</a>
+            <li>
+            <a class="one" href="">88005553535</a>
             </li>
-            <li class="fo">emptiness_is_calling</li>
+            <li>Emptiness_Is_Calling</li>
         </ul>
     </div>
-    <div class="right">
-        <div class="zgc">Основная информация</div>
-        <div class="block">
-        <div class="box">
-            <div class="death"></div>
+    <div class="main-right">
+        <div class="right">
+            <h2 class="zgc">Основная информация</h2>
+             <div class="block">
+                <div class="box">
+                    <div class="death"></div>
+                </div>
+                <ul class="koma">
+                    <li class="title">
+                        <div class="rex1">Меня зовут:</div>
+                        <div class="rex2">Рейк.</div>
+                    </li>
+                    <li class="title">
+                        <div class="rex1">Мой возраст:</div>
+                        <div class="rex2">17 лет.</div>
+                    </li>
+                    <li class="title">
+                        <div class="rex1">Мой город:</div>
+                        <div class="rex2">Москва.</div>
+                    </li>
+               </ul>
+             </div>
         </div>
-        <ul class="koma">
-        <li class="title">
-            <div class="rex1">Меня зовут:</div>
-            <div class="rex2">Рейк.</div>
-        </li>
-        <li class="title">
-            <div class="rex1">Мой возраст:</div>
-            <div class="rex2">17 лет.</div>
-        </li>
-        <li class="title">
-            <div class="rex1">Мой город:</div>
-            <div class="rex2">Москва.</div>
-        </li>
-        </ul>
+        <div class="info">
+            <h2 class="zgc">Опыт работы</h2>
+            <ul class="work-list">
+                <li class="work-list-item">
+                    <div class="komponi">
+                        "ИП Боровицкий"-Продавец дисков
+                    </div>
+                    <div class="date">
+                        Сентябрь 2015-Август 2018
+                    </div>
+                </li>
+                <li class="work-list-item">
+                    <div class="komponi">
+                        "ООО Системы безопасности"-Системный администратор
+                    </div>
+                    <div class="date">
+                        Июнь 2008-Июль 2010
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="info">
+            <h2 class="zgc">Образование</h2>
+            <ul class="work-list">
+                <li class="work-list-item ed">
+                    <div class="komponi">
+                        Высшее. МГУ им.Ломоносова
+                    </div>
+                    <div class="date">
+                        Сентябрь 2007-Июль 2012
+                    </div>
+                </li>
+                <li class="work-list-item kurs">
+                    <div class="komponi">
+                        Курсы "IT"
+                    </div>
+                    <div class="date">
+                        Ноябрь 2014-по настоящее время
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-    </div>
+</div>
 </body>
 </html>
